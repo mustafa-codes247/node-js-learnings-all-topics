@@ -1,0 +1,12 @@
+in these classes we learnt that 
+    node js is
+        - javascript runtime environment
+        -it's open source platform
+        -vanilla js and ES6 is used
+        -.js extension (not .jsx)
+
+we will create apis for crud operations
+when we fetch premade api (json file), we cant edit or update it 
+thats why we create new API for adding, deleting, updating data from that api.
+
+
