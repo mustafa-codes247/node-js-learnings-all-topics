@@ -1,0 +1,34 @@
+in these classes we learnt that 
+    node js is
+        - javascript runtime environment
+        -it's open source platform
+        -vanilla js and ES6 is used
+        -.js extension (not .jsx)
+
+we will create apis for crud operations
+when we fetch premade api (json file), we cant edit or update it 
+thats why we create new API for adding, deleting, updating data from that api.
+
+in class 20 , we learnt to install nodemon so the server reloads automatically after each change
+
+
+after writing something in index.js , we write 
+
+(1)npm i express (it will install node modules and express)
+(2)npm init -y (to install package.json important dependencies)(this -y is to yes all options)
+(3) npm i nodemon (to reload the server automatically)
+
+in node js importing is done in 2 ways 
+eg:
+1-common js: const Navbar=require "Navbar"
+2-module js : import Navbar from "Navbar";
+3-npm i nodemon
+
+we will change common to module in package.json
+
+there is package.json in which there is a thing in which we have to write "type": "module"
+if there is not present
+
+the we write  "start": "nodemon index.js"
+and write npm start in terminal cmd
+
