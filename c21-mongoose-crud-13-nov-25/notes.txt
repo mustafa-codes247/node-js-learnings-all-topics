@@ -21,5 +21,18 @@ if there is not present
 the we write  "start": "nodemon index.js"
 and write npm start in terminal cmd
 
+backend worrks on mvc architechture
+model-view-controller
+1-model : database structure , how db looks
+2-routes (view): this defines url of website,  when the user goes to specific route (eg products) , api loads for that page.
+3-controller (The Worker/Logic): it works actual logic like crud , handle request data
 
 
+7 data types of javascript:
+1-number: 123
+2-string: Asad
+3-bigint: numbers larger than 2^{53} - 1
+4-boolean: true -false
+5-undefined: variable without assigned value eg let x;
+6-null: let y = null;
+7-symbol: object property Symbol('id')
