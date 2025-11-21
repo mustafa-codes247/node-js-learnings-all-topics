@@ -1,7 +1,8 @@
 // importing express to run server
 import express from "express"
 import mongoose from "mongoose";
-import router from "./routes/userRoutes.js";
+import userRoutes from "./routes/userRoutes.js";
+import productRoutes from "./routes/productRoutes.js"
 
 // saving express functionalities in a variable
 const api=express();
@@ -15,8 +16,8 @@ const port = 8080;
 // })
 
 api.use(express.json())
-api.use("/api",router)
-
+api.use("/api",userRoutes);
+api.use("/api",productRoutes);
 
 // coonecting mongodb 
 mongoose.connect("mongodb://localhost:27017/crud")

@@ -22,10 +22,11 @@ export const createNewUser = async (req,res)=>{
 
 // reading all users 
 
-    export const getAllUser = (req,res)=>{
+    export const getAllUser =async (req,res)=>{
     try{
+        const user = await User.find();
         // THIS MUST BE COMPLETED OR THE APP MIGHT CRASH/HANG
-        res.status(200).json({ success: true, users: [] }); 
+        res.status(200).json({ success: true, user }); 
     }
     catch(error){
         res.status(500).json({ success: false, message: "internal error", error })

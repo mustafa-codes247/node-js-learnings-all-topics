@@ -3,6 +3,6 @@
 
     const router = express.Router();
 
-    router.post("/",createNewUser);
-    router.get("/",getAllUser);
+    router.post("/newuser",createNewUser);
+    router.get("/alluser",getAllUser);
     export default router;

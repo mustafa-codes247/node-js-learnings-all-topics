@@ -13,7 +13,7 @@ const userModel = new Schema({
         type:Number
     }
 
-})
+},{timestamps:true})
 
 const User = mongoose.model("User",userModel)
 
